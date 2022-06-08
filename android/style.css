@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+/*margin nessa seção faz o cabeçalho eo o footer ocupar o total na largura*/
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+/*conf do cabeçalho*/
+header{
+    background-image: linear-gradient(180deg, #0edb67,  #033f1d);
+    color: #fff;
+    height: 135px;
+    padding: 15px;
+}
+
+/*centraliza o cabeçalho e paragrafo*/
+header.centralizaTexto{
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+}
+
+
+nav > a{
+    text-decoration: none;
+    color:#fff;
+    padding: 2px;
+    margin: 2px;
+}
+
+
+/*corpo principal do site*/
+main{
+    background-color: #fff;
+    
+    /*Acochoamento*/
+    padding: 20px;
+        
+    /*largura do main*/
+    width: 65%;
+
+    border-radius: 0px 0px 5px 5px;
+
+    /*coloca o main centralizado*/
+    margin: auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+div.video{
+    background-color: #033f1d;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/*artigos*/
+article > h1{
+    font-family: 'idroid';
+    color: #047535;
+    
+}
+
+article > h2{
+    background-image: linear-gradient(90deg, #94ebd5, #fff);
+    text-align: left;
+    color: #047535;
+    font-family: 'idroid';
+    font-size: 16px;
+    
+    
+}
+
+article > p{
+    text-indent:20px;
+    
+}
+
+article.textoDestaque em{
+    font-weight: bold;
+    color: #035326;
+}
+
+section.textoDestaque em{
+    font-weight: bold;
+    color: #035326;
+}
+
+.centralizarImg{
+    text-align:center;
+}
+
+/*configura o titulo do aside*/
+.aprenderMais{
+    background-color: #04aa4c;
+    color:#fff;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px; 
+    box-shadow: 3px 0px 0px rgb(204, 204, 204);   
+    
+}
+
+aside{
+    background-color: rgba(88, 210, 241, 0.377);
+    width: auto;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 5px 4px rgb(204, 204, 204);
+}
+aside ul{
+    list-style-type: none;
+}
+/*configura a lista1 em colunas*/
+.coluna1{
+    float: left;
+    width: 480px;
+    margin: 50px, 10px, 50, 10px;
+    padding: auto;
+}
+
+section{
+    text-indent: 5px;
+    
+}
+
+footer{
+    background-color: #033f1d;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+        
+}
