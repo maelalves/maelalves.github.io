@@ -6,4 +6,4 @@ Deve conter um cabeçalho com degrade, um menu simples e um artigo com titulo, i
 apresenta um lista com marcadores personalizados e links externos identificados com emotions; Alem de todo o site contar com a tecnologia 
 de responsividade.
 <br>
-<a href="https://maelalves.github.io/android/index.html">Executar projeto Site Android</a>
+<a href="https://maelalves.github.io/android/index.html" target="_blank">Executar projeto Site Android</a>
