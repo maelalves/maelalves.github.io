@@ -7,7 +7,7 @@ Sendo assim você pode acompanhar tanto os em desenvolvimento como os já finali
 link rapido
 Execute diretamente os projetos.
 <br>
-<a href="https://maelalves.github.io/android/index.html" target="_blank"> &#x1F517; &nbps; Executar projeto Site Android</a>
+<a href="https://maelalves.github.io/android/index.html" target="_blank"> &#x1F517; &nbsp; Executar projeto Site Android</a>
 <br>
 <a href="https://maelalves.github.io/landingPageInstagram/#" traget="_blank"> &#x1F517; &nbsp; Executar projeto Clone Instagram</a>
 
